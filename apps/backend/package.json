@@ -1,0 +1,18 @@
+{
+  "name": "@sidebet-action/backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "db:push": "supabase db push",
+    "db:migrate": "supabase migration new",
+    "db:reset": "supabase db reset",
+    "functions:deploy": "supabase functions deploy",
+    "functions:serve": "supabase functions serve",
+    "link": "supabase link",
+    "start": "supabase start",
+    "stop": "supabase stop"
+  },
+  "devDependencies": {
+    "supabase": "^1.142.2"
+  }
+}
